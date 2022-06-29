@@ -4,8 +4,16 @@ We completed the project with NodeJs ExpressJs, MongoDb, VueJs
 
 ``
 npm install
+``
+``
 cd client
+``
+``
 npm install
+``
+``
 cd ..
+``
+``
 npm run dev
 ``
