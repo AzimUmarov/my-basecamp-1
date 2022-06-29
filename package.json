@@ -1,0 +1,40 @@
+{
+  "name": "my_basecamp_1",
+  "version": "1.0.0",
+  "description": "This is project to qwasar.io platform",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "server": "nodemon app.js",
+    "client": "cd ./client && npm run serve",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shaxzod5625/my_basecamp.git"
+  },
+  "keywords": [
+    "MEVN"
+  ],
+  "author": "Safarov Shaxzod <shaxzodzor007@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shaxzod5625/my_basecamp/issues"
+  },
+  "homepage": "https://github.com/shaxzod5625/my_basecamp#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "concurrently": "^7.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.2.4",
+    "morgan": "^1.10.0",
+    "passport": "^0.5.2",
+    "passport-jwt": "^4.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
